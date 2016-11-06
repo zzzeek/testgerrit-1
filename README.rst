@@ -12,3 +12,5 @@ ln4 test #1
 ln4 test #2
 
 ln4 test #3
+
+ln4 test #4
