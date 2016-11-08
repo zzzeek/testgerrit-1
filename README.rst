@@ -16,3 +16,5 @@ ln4 test #3
 ln4 test #4
 
 ln4 test #5
+
+ln4 test #6
