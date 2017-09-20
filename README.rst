@@ -7,22 +7,4 @@ here's another version of this.
 
 some PR thing
 
-ln4 test #1
-
-ln4 test #2
-
-ln4 test #3
-
-ln4 test #4
-
-ln4 test #5
-
-ln4 test #6
-
-ln4 test #7
-
-#8
-
-#9
-
-#10 this is the one!!!!
+welcome to CI
