@@ -15,6 +15,8 @@ def bar_two(z, q):
     bat.do_z(z)
     if name:
         bat.do_q(q)
+    else:
+        bat.do_q(q + 7)
 
 
 def bar_two_five(z, q):
