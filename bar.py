@@ -3,7 +3,7 @@
 from bar import bar
 from bar import bat
 
-name = None
+name = False
 
 
 def bar_one(x, y):
@@ -17,11 +17,6 @@ def bar_two(z, q):
         bat.do_q(q)
     else:
         bat.do_q(q + 7)
-
-
-def bar_two_five(z, q):
-    bat.do_z(z)
-    bat.do_q(q)
 
 
 def bar_three(a, g, h):
