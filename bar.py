@@ -13,14 +13,14 @@ def bar_one(x, y):
 
 def bar_two(z, q):
     bat.do_z(z)
-    if name:
-        bat.do_q(q)
-    else:
-        bat.do_q(q + 7)
+    bat.do_q(q + name)
 
 
 def bar_three(a, g, h):
     bat.do_a(a)
     bat.do_g(g)
-    bat.do_h(h)
+
+
+def bar_four():
+    pass
 
