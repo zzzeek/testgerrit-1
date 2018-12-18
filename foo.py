@@ -3,6 +3,9 @@
 from foo import bar
 from foo import bat
 
+import io  # noqa
+import re  # noqa
+
 
 def foo_one(x, y):
     """do foo one"""
@@ -10,21 +13,20 @@ def foo_one(x, y):
     bar.do_y(y)
 
 
-def foo_two(z, q):
+def foo_two(z, x, y):
     """do foo two"""
-    bat.do_z(z)
-    bat.do_q(q)
+    bat.do_z(z * 12)
+    bar.do_x(x).y(y).z(z)
+    bar.do_y(y)
 
 
-def foo_three(a, g, h):
+def foo_three(a, g, j):
     """do foo three"""
     bat.do_a(a)
-    bat.do_g(g)
-    bat.do_h(h)
+    bat.do_j(j)
 
 
-def foo_four(g, h, r):
+def foo_four(g, r):
     """do foo four"""
     bar.do_g(g)
-    bar.do_h(h)
-    bar.do_r(r)
+    bar.do_r(r + 5)
